@@ -1,0 +1,44 @@
+body {
+    background: black;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #eaa03f;
+}
+
+.profile-button {
+    background: #212122;
+    box-shadow: none;
+    border: none;
+}
+
+.profile-button:hover {
+    background: #505050;
+}
+
+.profile-button:focus {
+    background: #eaa03f;
+    box-shadow: none;
+}
+
+.profile-button:active {
+    background: #eaa03f;
+    box-shadow: none;
+}
+
+.back:hover {
+    color: #eaa03f;
+    cursor: pointer;
+}
+
+.labels {
+    font-size: 11px;
+}
+
+.add-experience:hover {
+    background: #eaa03f;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #eaa03f;
+}

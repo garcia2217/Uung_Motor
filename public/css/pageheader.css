@@ -1,0 +1,80 @@
+.pageheader__container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pageheader__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.introduction {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.introduction__headline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-transform: uppercase;
+    margin: 0 8.3333333333% 40px 8.3333333333%;
+    margin-bottom: 40px;
+}
+
+.headline1 {
+    /* font-family: var(--mnm-font-bmw, ""), mnm-font-bmw; */
+    font-weight: bold;
+    text-transform: none;
+    font-variant-numeric: proportional-nums;
+    font-size: 18px;
+}
+
+.headline--pageMain {
+    /* font-family: var(--mnm-font-bmw, ""), mnm-font-bmw; */
+    width: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-variant-numeric: proportional-nums;
+    font-size: 80px;
+    line-height: 36px;
+    color: #16171a;
+    opacity: 0;
+    margin: -10px 13.7931034483% 0 13.7931034483%;
+    padding: 10px 0;
+    transition: 0s;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.headline--pageSub {
+    /* display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    font-size: 32px;
+    line-height: 22px;
+    text-align: left;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    margin-top: 60px;
+    transition: 0s;
+    transition-delay: 0.1s; */
+    padding-left: 1.1494252874%;
+    margin-left: 12.6436781609%;
+    padding-top: 10px;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-size: 32px;
+}

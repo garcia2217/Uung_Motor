@@ -1,0 +1,106 @@
+/* public/css/product.css */
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure items start from the left */
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color for better contrast */
+    max-width: 1500px; /* Increase max width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(25% - 20px); /* Ensure 4 products per row with gaps */
+    text-align: center;
+    transition: transform 0.2s;
+    margin-bottom: 20px; /* Add margin-bottom for spacing between rows */
+    padding: 10px; /* Add padding for consistent spacing */
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    /* width: 295.8px; */
+    height: 270px;
+    /* object-fit: cover; */
+    /* height: auto; */
+    border-bottom: 2px solid #dee2e6; /* Border for separation */
+}
+
+.product-card .product-info {
+    padding: 15px;
+}
+
+.product-card .product-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #343a40; /* Dark color for better readability */
+}
+
+.product-card .product-description {
+    font-size: 14px;
+    color: #6c757d; /* Muted color for secondary text */
+    margin-bottom: 15px;
+}
+
+.product-card .product-price {
+    font-size: 18px;
+    color: #28a745; /* Green color for pricing */
+    font-weight: bold;
+}
+
+.product-card .btn {
+    margin-top: 10px;
+    background-color: #000000; /* Primary blue color */
+    color: white;
+    border: 2px solid #202030; /* Border matches the background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.product-card .btn:hover {
+    background-color: white; /* White background on hover */
+    color: #000000; /* Blue text on hover */
+    border: 2px solid #000000; /* Border matches the background */
+}
+
+@media (max-width: 992px) {
+    .product-card {
+        width: calc(48% - 20px); /* 2 products per row for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        width: calc(100% - 20px); /* 1 product per row for mobile screens */
+    }
+}
+
+/* Page header styling */
+.headline1 {
+    color: #000000; /* Ensure text color is black */
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-item .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Ensure consistency for the navbar container and product container */
+.container-fluid,
+.product-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
