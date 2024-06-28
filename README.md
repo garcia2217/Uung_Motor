@@ -1,6 +1,6 @@
 UungMotor
 
-Kelompok 14:
+Kelompok 12:
 
 Kent Dylan Sanjaya 535220063
 Figo Vincenzo 535220087
