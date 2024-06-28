@@ -1,14 +1,16 @@
 step installation:
 1. clone project ini ke ke dalam folder yang anda inginkan (git clone https://github.com/garcia2217/Uung_Motor.git), link bisa di dapat dengan memencet tombol Code dengan warna hijau lalu copy link HTTPS
 2. setelah mengclone project, setup database pada file .env.example anda
+'''
 DB_CONNECTION=UungMotor
 DB_HOST=127.0.0.1 (sesuaikan dengan localhost anda)
 DB_PORT=5432 (sesuaikan dengan port anda)
 DB_DATABASE=UungMotor (anda dapat menggunakan nama database lain tidak harus UungMotor, namun pastikan file UungMotor.sql yang anda restore ada pada database tersebut.
 DB_USERNAME=postgres (sesuaikan dengan username anda)
 DB_PASSWORD=postgre (sesuaikan dengan password anda)
-3. setelah melakukan setup pada file .env.example, copy file tersebut dan paste dengan nama baru yaitu '.env'
-4. buka terminal anda (CTRL + Shift + `) dan tulis command berikut pada terminal anda
+'''
+4. setelah melakukan setup pada file .env.example, copy file tersebut dan paste dengan nama baru yaitu '.env'
+5. buka terminal anda (CTRL + Shift + `) dan tulis command berikut pada terminal anda
 - composer install
 - php artisan storage:link
 - php artisan key:generate
