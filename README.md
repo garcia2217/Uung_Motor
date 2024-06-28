@@ -11,10 +11,12 @@ DB_PASSWORD=postgre (sesuaikan dengan password anda)
 ```
 4. setelah melakukan setup pada file .env.example, copy file tersebut dan paste dengan nama baru yaitu '.env'
 5. buka terminal anda (CTRL + Shift + `) dan tulis command berikut pada terminal anda
+``` bash
 - composer install
 - php artisan storage:link
 - php artisan key:generate
 - php artisan jwt:secret
+```
 5. buka administrator database anda, pada contoh ini saya menggunakan PostgreSQL
 - buat database baru, klik kanan pada Databases
 ![Screenshot (972)](https://github.com/garcia2217/Uung_Motor/assets/118705093/35330e54-fb2b-4731-b73e-b6a26f910f5a)
@@ -26,8 +28,12 @@ DB_PASSWORD=postgre (sesuaikan dengan password anda)
 ![Screenshot (975)](https://github.com/garcia2217/Uung_Motor/assets/118705093/e80e70b5-d16d-4140-8f4b-7bb2d11c47d2)
 6. setup selesai anda bisa run aplikasi dengan menulis command "php artisan serve" pada terminal
 7. akun admin:
+``` bash
 email: admin@gmail.com
 password: admin
+```
 8. akun user yang sudah ada:
+``` bash
 email: garcia@gmail.com
 password: kucing
+```
