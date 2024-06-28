@@ -1,3 +1,29 @@
+UungMotor
+
+Kelompok 14:
+
+Kent Dylan Sanjaya 535220063
+Figo Vincenzo 535220087
+Emmanuel Garcia Sumargo 535220103
+Topik Apps: Website Toko Motor Bekas
+
+Pembagian Tugas:
+Product Owner (Pemilik Produk)
+Peran product owner ini menjadi sosok penting dari berjalannya sebuah proyek. 
+Mereka akan bertanggung jawab sebagai pemilik produk dengan visi khusus. 
+Tugas utamanya adalah sebagai stakeholder atau pemegang saham. Selain itu, 
+product owner juga akan menjelaskan Product Backlog kepada Development 
+Team. Peran ini adalah peran dari UUNG (Anggota Kelompok Kent).
+2. Master Scrum
+Singkatnya, master scrum ini adalah “mandor” dari pelaksanaan metode scrub. 
+Sebab, seorang master scrum pasti akan memastikan bagaimana prosedur dapat 
+diikuti, memberikan arahan sesuai dengan metodenya, memastikan hal-hal 
+berjalan lancar, hingga mengatasi hambatan dalam proyeknya. Peran ini dipegang 
+oleh Emmanuel.
+3. Development Team
+Dalam development team akan memegang peran terakhir dari kinerja metode 
+scrum. Peran ini dilakukan oleh Figo
+
 step installation:
 1. clone project ini ke ke dalam folder yang anda inginkan (git clone https://github.com/garcia2217/Uung_Motor.git), link bisa di dapat dengan memencet tombol Code dengan warna hijau lalu copy link HTTPS
 2. setelah mengclone project, setup database pada file .env.example anda
