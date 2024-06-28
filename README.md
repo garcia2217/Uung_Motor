@@ -1,7 +1,7 @@
 step installation:
 1. clone project ini ke ke dalam folder yang anda inginkan (git clone https://github.com/garcia2217/Uung_Motor.git), link bisa di dapat dengan memencet tombol Code dengan warna hijau lalu copy link HTTPS
 2. setelah mengclone project, setup database pada file .env.example anda
-'''
+'''bash
 DB_CONNECTION=UungMotor
 DB_HOST=127.0.0.1 (sesuaikan dengan localhost anda)
 DB_PORT=5432 (sesuaikan dengan port anda)
